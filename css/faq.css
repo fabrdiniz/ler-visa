@@ -67,3 +67,39 @@ footer {
         }
     }
 }
+
+@media screen and (max-width: 910px) {
+
+    .faq__text {
+        width: 100%;
+        text-align: center;
+        padding-inline: 2rem;
+    }
+
+    .faq {
+        padding-inline: 2rem;
+    }
+}
+
+@media screen and (max-width: 710px) {
+
+    .faq__text {
+        h1 {
+            font-size: 3.5rem;
+        }
+
+        p {
+            margin-block: 1.5rem;
+        }
+    }
+
+}
+
+@media screen and (max-width: 350px) {
+
+    .faq__text {
+        h1 {
+            font-size: 2.5rem;
+        }
+    }
+}

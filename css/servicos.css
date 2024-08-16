@@ -78,3 +78,223 @@
         }
     }
 }
+
+
+/* Media Queries */
+@media screen and (max-width: 1730px) {
+    .services {
+
+        .services__title {
+            font-size: 4.5rem;
+        }
+
+        .services__description {
+            font-size: 1.7rem;
+        }
+
+        .services__list {
+            margin-left: -200px;
+
+            .service-item {
+                img {
+                    height: 140px;
+                }
+            }
+
+            .service-item__content {
+                .service-item__title {
+                    font-size: 1.1rem;
+                }
+
+                p {
+                    font-size: 1.1rem;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .services {
+        .services__list {
+            margin-left: -150px;
+        }
+    }
+}
+
+@media screen and (max-width: 1550px) {
+    .services {
+        .services__list {
+            margin-left: -100px;
+        }
+    }
+
+}
+
+@media screen and (max-width: 1400px) {
+
+    .services {
+        .services__title {
+            font-size: 4rem;
+        }
+
+        .services__description {
+            font-size: 1.6rem;
+        }
+
+        .services__list {
+            margin-left: -50px;
+
+            .service-item {
+                img {
+                    height: 130px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1300px) {
+
+    .services {
+        .services__title {
+            font-size: 3.5rem;
+        }
+
+        .services__description {
+            font-size: 1.5rem;
+        }
+
+        .service-item {
+            img {
+                height: 120px;
+            }
+        }
+
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .services {
+        max-width: 70%;
+
+        .services__title {
+            font-size: 3rem;
+        }
+
+        .services__description {
+            font-size: 1.4rem;
+        }
+
+        .service-item {
+            img {
+                height: 110px;
+            }
+        }
+
+        .services__square {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .services {
+        max-width: 80%;
+
+        .services__title {
+            font-size: 2.5rem;
+        }
+
+        .services__description {
+            font-size: 1.3rem;
+        }
+
+        .service-item {
+            img {
+                height: 100px;
+            }
+        }
+
+        .services__square p {
+            font-size: 1.1rem;
+        }
+
+        .services__square img {
+            height: 25px;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .services {
+        max-width: 90%;
+
+        .services__title {
+            font-size: 2rem;
+            text-align: center;
+        }
+
+        .services__description {
+            font-size: 1.2rem;
+            text-align: center;
+        }
+
+        .services__list {
+            margin: 0;
+
+            .service-item {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+    
+                img {
+                    margin-right: 0;
+                    margin-bottom: 15px;
+                    height: 90px;
+                }
+    
+                .service-item__title,
+                .service-item__content p {
+                    font-size: 1rem;
+                }
+            }
+
+        }
+        .services__square {
+            align-items: center;
+        }
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .services {
+        max-width: 100%;
+    }
+
+    .services__title {
+        font-size: 1.8rem;
+    }
+
+    .services__description {
+        font-size: 1.1rem;
+    }
+
+    .service-item img {
+        height: 80px;
+    }
+
+    .service-item__title,
+    .service-item__content p {
+        font-size: 0.9rem;
+    }
+
+    .services__square p {
+        font-size: 1rem;
+    }
+
+    .services__square img {
+        height: 20px;
+    }
+}

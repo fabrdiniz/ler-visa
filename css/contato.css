@@ -75,3 +75,10 @@ body {
         font-style: italic;
     }
 }
+
+@media screen and (max-width: 850px) {
+    .contato__text {
+        width: 100%;
+        padding-inline: 2rem;
+    }
+}

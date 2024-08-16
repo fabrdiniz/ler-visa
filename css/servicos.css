@@ -1,0 +1,80 @@
+@import url(../css/style.css);
+
+.services {
+    max-width: 55%;
+    margin: 0 auto;
+    padding: 20px;
+
+    .services__title {
+        font-family: Playfair Display, sans-serif;
+        font-weight: 500;
+        font-size: 5rem;
+        color: var(--cor-vermelho);
+        text-align: left;
+        margin-bottom: 1rem;
+    }
+
+    .services__description {
+        font-size: 1.8rem;
+        margin-bottom: 30px;
+        text-align: left;
+    }
+
+    .services__list {
+        margin-left: -270px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        .service-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 15px;
+            padding: 15px;
+
+            img {
+                margin-right: 30px;
+                height: 150px;
+                object-fit: cover;
+            }
+
+            .service-item__content {
+                flex: 1;
+
+                .service-item__title {
+                    font-style: italic;
+                    font-size: 1.2rem;
+                    color: var(--cor-preto);
+                    margin: 0;
+                    margin-bottom: 5px;
+                }
+
+                p {
+                    margin: 0;
+                    font-size: 1.2rem;
+                    font-style: italic;
+                }
+            }
+        }
+    }
+
+    .services__square {
+        background-color: var(--cor-branco);
+        border: 5px solid var(--cor-azul-claro);
+        padding: 2rem;
+        display: flex;
+        align-items: flex-end;
+        gap: .5rem;
+        margin-top: 2rem;
+        margin-bottom: 5rem;
+
+        p {
+            font-size: 1.2rem;
+            font-weight: 500;
+        }
+
+        img {
+            height: 30px;
+        }
+    }
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+
+    <link rel="icon" href="../assets/icon-lgr visa.png" type="image/x-icon">
+
+    <!-- Font Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/contato.css">
+
+    <!-- Font Awesome -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <div class="header" id="header">
+        <a href="../index.html">
+            <img src="../assets/icon-lgr visa.png" alt="Ícone LGR Visa Strategy">
+        </a>
+
+        <!-- Menu Hambúrguer -->
+        <div class="header__hamburger" id="hamburger">
+            ☰
+        </div>
+
+        <div class="header__nav" id="nav">
+            <a href="../index.html">home</a>
+            <a href="../index.html">quem somos</a>
+            <a href="../pages/servicos.html">serviços</a>
+            <a href="../pages/visto.html">tipos de visto</a>
+            <a href="../pages/midia.html">mídia</a>
+            <a href="../pages/faq.html">faq</a>
+            <a href="../pages/contato.html">contato</a>
+        </div>
+    </div>
+    <!-- Fim Header -->
+
+    <div class="banner__hero">
+        <img src="../assets/contato-banner.png" alt="">
+    </div>
+
+    <div class="contato__text">
+        <p>Se tiver dúvidas ou precisar de mais informações sobre nossos serviços, não hesite em entrar em contato.
+            Preencha o formulário abaixo, e nossa equipe responderá o mais rápido possível.</p>
+    </div>
+
+    <!-- Formulário de contato -->
+    <div class="form-container">
+        <form action="https://api.staticforms.xyz/submit" method="post">
+            <input type="hidden" name="accessKey" value="6c88704d-685f-4d53-86c2-f55b7ff84013">
+
+            <input type="text" name="$Nome" placeholder="Nome*" required>
+
+            <input type="email" name="$Email" placeholder="Email*" required>
+
+            <input type="tel" name="$Telefone" placeholder="Telefone*" required>
+
+            <input type="text" name="$Nível de formação" placeholder="Nível de formação*" required>
+
+            <input type="text" name="$Área que atua" placeholder="Você atua em qual área?*" required>
+
+            <input type="text" name="$Experiência na área" placeholder="Experiência na área*" required>
+
+            <input type="text" name="$Estado Civil" placeholder="Estado Civil*" required>
+
+            <input type="text" name="$Tem ou já teve visto americano?" placeholder="Tem ou já teve visto americano?*"
+                required>
+
+            <input type="text" name="$Possui um sponsor?" placeholder="Possui um sponsor?*" required>
+
+            <p class="disclaimer">
+                <input type="checkbox" id="privacy" name="privacy" required>
+                <label for="privacy">Ao clicar no botão de envio, concordo com a Política de Privacidade dos
+                    Dados*</label>
+            </p>
+
+            <input type="text" name="honeypot" style="display: none;">
+
+            <input type="hidden" name="redirectTo" value="https://lgrvisastrategy.com/">
+            <button type="submit">ENVIAR</button>
+        </form>
+    </div>
+    <!-- Formulário de contato -->
+
+    <!-- Footer -->
+    <footer>
+        <img src="../assets/logo-lgr2.png" alt="Logo LGR Visa Strategy">
+        <div class="footer__contato">
+            <p class="text-red uppercase">Contato:</p>
+            <a href="#"><img src="../assets/wpp-icon.svg" alt="Ícone WhatsApp">+1 888-212-9510</a>
+            <a href="#"><img src="../assets/loc-icon.svg" alt="">louanni@lgrvisastrategy.com</a>
+        </div>
+        <div class="footer__social">
+            <a href="#"><img src="../assets/insta-icon.svg" alt="Ícone Instagram"></a>
+            <a href="#"><img src="../assets/yt-icon.svg" alt="Ícone YouTube"></a>
+            <a href="#"><img src="../assets/linkedin-icon.svg" alt="Ícone LinkedIn"></a>
+        </div>
+    </footer>
+    <!-- Fim Footer -->
+
+    <script src="../js/menu.js"></script>
+
+</body>
+
+</html>

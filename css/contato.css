@@ -1,0 +1,77 @@
+@import url(../css/style.css);
+
+body {
+    font-family: 'Playfair Display', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--cor-branco);
+}
+
+.form-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 10px;
+
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"] {
+        padding: 0.75rem;
+        margin-bottom: 1rem;
+        border: 1px solid transparent;
+        font-size: 1rem;
+        background-color: #efecec;
+        font-style: italic;
+    }
+
+    input[type="text"]::placeholder, 
+    input[type="email"]::placeholder,
+    input[type="tel"]::placeholder{
+        color: var(--cor-vermelho);
+    }
+
+    button[type="submit"] {
+        padding: 1rem;
+        background-color: var(--cor-vermelho);
+        color: #ffffff;
+        font-size: 1.2rem;
+        border: none;
+        border-radius: 15px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        font-style: italic;
+    }
+
+    button[type="submit"]:hover {
+        background-color: #922A33;
+    }
+
+    .disclaimer {
+        font-size: 0.8rem;
+        color: #444;
+        margin-block: 1rem;
+        font-style: italic;
+        font-weight: 600;
+    }
+
+    .disclaimer input[type="checkbox"] {
+        margin-right: 0.5rem;
+    }
+}
+
+.contato__text {
+    width: 730px;
+    margin: 0 auto;
+
+    p {
+        font-size: 20px;
+        font-style: italic;
+    }
+}
